@@ -11,7 +11,7 @@ r = requests.get('http://www.itico.ir')
 soup = BeautifulSoup(r.text, "html.parser")
 #print( soup.prettify())
 #print(soup.find(text="TourBarg"))
-print(soup.br)
+print(soup)
 
 
 # In[ ]:
