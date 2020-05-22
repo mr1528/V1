@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 # 1st new line
-# In[23]:
 
-# TO DO ADDED 
+
+# TO DO ADDED 2
 import requests
 from bs4 import BeautifulSoup
 r = requests.get('http://www.itico.ir')
@@ -12,10 +12,6 @@ soup = BeautifulSoup(r.text, "html.parser")
 print( soup.prettify())
 #print(soup.find(text="TourBarg"))
 print(soup)
-
-
-# In[ ]:
-
 
 
 
