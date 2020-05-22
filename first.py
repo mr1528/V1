@@ -3,7 +3,7 @@
 # 1st new line
 # In[23]:
 
-
+# TO DO ADDED 
 import requests
 from bs4 import BeautifulSoup
 r = requests.get('http://www.itico.ir')
