@@ -6,7 +6,7 @@
 # TO DO ADDED 2
 import requests
 from bs4 import BeautifulSoup
-r = requests.get('http://www.itico.ir')
+r = requests.get('https://www.oeoc.ir')
 #r.text
 soup = BeautifulSoup(r.text, "html.parser")
 print( soup.prettify())
