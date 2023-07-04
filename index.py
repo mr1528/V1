@@ -6,12 +6,9 @@
 # TO DO ADDED 2
 import requests
 from bs4 import BeautifulSoup
-r = requests.get('https://www.google.com')
+r = requests.get('https://www.google1.com')
 #r.text
 soup = BeautifulSoup(r.text, "html.parser")
 print( soup.prettify())
 #print(soup.find(text="TourBarg"))
 print(soup)
-
-
-
